@@ -1,0 +1,25 @@
+.container{
+    width: 600px;
+    height: 800px;
+    background-color: yellow;
+    margin: 0 auto;
+    background-image: url(./WallpaperGram.IR_1554935404_94807.jpg);
+    background-repeat: no-repeat;
+    background-size:600px;
+}
+.navbar{
+    width: 600px;
+    height: 40px;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(245, 222, 179, 0.432);
+    border-bottom: 1px solid rgba(245, 222, 179, 0.315);
+}
+.header{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: Booter Zero Zero;
+}
