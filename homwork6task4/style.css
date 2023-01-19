@@ -82,6 +82,12 @@ button {
     border-radius: 10px;
     border: none;
 }
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+    background-color: blue;
+    transform: scale(0.97);
+}
 
 .big-con {
     background-color: rgb(219, 133, 20);
@@ -114,4 +120,7 @@ button {
     margin-top: 10px;
     margin-right: 30px;
     color: white;
+}
+.icoon:hover{
+    color: gold;
 }
