@@ -1,0 +1,106 @@
+.container {
+    width: 700px;
+    height: 150px;
+    background-color: rgba(206, 177, 177, 0.39);
+    margin: 0 auto;
+    background-image: url(./WallpaperGram.IR_1554935404_94807.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    position: relative;
+    bottom: 60px;
+
+}
+
+.navbar {
+    width: 700px;
+    height: 40px;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(245, 222, 179, 0.432);
+    border-bottom: 1px solid rgba(245, 222, 179, 0.315);
+    cursor: pointer;
+}
+
+.navbar1:hover {
+    color: gold;
+}
+
+.navbar2:hover {
+    color: gold;
+}
+
+.navbar3:hover {
+    color: gold;
+}
+
+.big-con {
+    width: 700px;
+    height: 870px;
+    background-color: rgba(0, 0, 0, 0.082);
+    margin: 0 auto;
+}
+
+.header {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.about {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 30px;
+}
+.prgf{
+    margin: 0 auto;
+    width: 650px;
+    position: relative;
+    bottom: 70px;
+}
+.picc{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 50%;
+    
+}
+p{
+    color: rgba(0, 0, 0, 0.531);
+}
+.footer {
+    width: 700px;
+    height: 50px;
+    background-color: aqua;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+}
+
+.generics {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.icoon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 30px;
+    color: white;
+}
+.icoon:hover{
+    color: gold;
+}
