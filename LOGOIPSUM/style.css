@@ -9,7 +9,6 @@
 
 }
 
-
 nav {
     /*background-color: aqua;*/
     padding: 30px 126px;
@@ -48,17 +47,19 @@ nav {
     border-bottom: 2px solid #FFFFFF;
     position: relative;
 }
+
 .list_item a::before {
     content: "";
     height: 3px;
     width: 0px;
-    background: linear-gradient(to right,white ,blue );
+    background: linear-gradient(to right, white, blue);
     position: absolute;
     bottom: 0px;
     transition: 0.5s all linear;
     transform-origin: left;
     right: 0px;
 }
+
 .list_item a:hover::before {
     width: 100%;
     left: 0px;
@@ -372,22 +373,26 @@ nav {
     border-radius: 10px;
 }
 
-.cardbox1:hover{
+.cardbox1:hover {
     background-color: #FF7143;
     transform: scale(1.05);
 }
-.cardbox1:hover p{
+
+.cardbox1:hover p {
     color: white;
 
 }
-.cardbox1:hover h1{
+
+.cardbox1:hover h1 {
     color: white;
 }
-.cardbox1:hover button{
+
+.cardbox1:hover button {
     background: #9F3919;
     border-radius: 10px;
 }
-.cardbox1:hover button{
+
+.cardbox1:hover button {
     color: white;
 }
 
@@ -399,22 +404,26 @@ nav {
     border-radius: 10px;
 }
 
-.cardbox2:hover{
+.cardbox2:hover {
     background-color: #FF7143;
     transform: scale(1.05);
 }
-.cardbox2:hover p{
+
+.cardbox2:hover p {
     color: white;
 
 }
-.cardbox2:hover h1{
+
+.cardbox2:hover h1 {
     color: white;
 }
-.cardbox2:hover button{
+
+.cardbox2:hover button {
     background: #9F3919;
     border-radius: 10px;
 }
-.cardbox2:hover button{
+
+.cardbox2:hover button {
     color: white;
 }
 
@@ -427,22 +436,26 @@ nav {
     border-radius: 10px;
 }
 
-.cardbox3:hover{
+.cardbox3:hover {
     background-color: #FF7143;
     transform: scale(1.05);
 }
-.cardbox3:hover p{
+
+.cardbox3:hover p {
     color: white;
 
 }
-.cardbox3:hover h1{
+
+.cardbox3:hover h1 {
     color: white;
 }
-.cardbox3:hover button{
+
+.cardbox3:hover button {
     background: #9F3919;
     border-radius: 10px;
 }
-.cardbox3:hover button{
+
+.cardbox3:hover button {
     color: white;
 }
 
@@ -485,6 +498,7 @@ nav {
     color: #696871;
     margin-top: 20px;
 }
+
 .btn_cards {
     width: 285px;
     height: 60px;
@@ -499,6 +513,7 @@ nav {
     letter-spacing: -0.531474px;
     color: #5454D4;
 }
+
 .btn_cards {
     display: flex;
     align-items: center;
@@ -506,4 +521,5 @@ nav {
     margin: 0 auto;
     border: none;
 }
+
 /* Cards end*/
