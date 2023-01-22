@@ -95,7 +95,7 @@ nav {
 /* hero satrt*/
 
 .hero {
-    padding: 0 126px;
+    padding: 0 124px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,7 +161,6 @@ nav {
     border: 1px solid #e7e7e7;
     box-shadow: 0 0 5px #e7e7e7;
 }
-
 /* hero end*/
 /* sponser start*/
 
@@ -281,7 +280,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 185px;
-    gap: 250px
+    
 }
 
 .plan_box {
@@ -299,9 +298,9 @@ nav {
 }
 
 .plan_btn {
-    width: 344px;
-    height: 65px;
-    background: #ffffff;
+    width: 360px;
+    height: 62px;
+    background:#F7F7FB;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -310,9 +309,9 @@ nav {
 }
 
 .planbtn1 {
-    Width: 160px;
+    Width: 144px;
     Height: 55px;
-    background: white;
+    background-color: #5454D4;
     border-radius: 10px 0px 0px 10px;
     font-style: normal;
     font-weight: 700;
@@ -320,14 +319,15 @@ nav {
     line-height: 21px;
     text-align: center;
     letter-spacing: -0.500211px;
-    color: #19191B;
+    color: #ffffff;
     border: none;
 }
 
 .planbtn1:hover {
-    background-color: #5454D4;
+    background-color: #ffffff;
     transform: scale(0.98);
-    color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid #5454D4;
 
 }
 
@@ -347,8 +347,10 @@ nav {
 }
 
 .planbtn2:hover {
-    background-color: #5454D4;
-    color: white;
+    background-color: #ffffff;
+    transform: scale(0.98);
+    color: rgb(0, 0, 0);
+    border: 2px solid #5454D4;
 }
 
 /* Plan container end*/
@@ -371,29 +373,40 @@ nav {
     height: 441px;
     background: #F8F8F8;
     border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+
 }
 
 .cardbox1:hover {
     background-color: #FF7143;
     transform: scale(1.05);
+    transition: 0.5s all ease;
 }
 
 .cardbox1:hover p {
     color: white;
+    transition: 0.5s all ease;
+
 
 }
 
 .cardbox1:hover h1 {
     color: white;
+    transition: 0.5s all ease;
+
 }
 
 .cardbox1:hover button {
     background: #9F3919;
     border-radius: 10px;
+    transition: 0.5s all ease;
+
 }
 
 .cardbox1:hover button {
     color: white;
+    transition: 0.5s all ease;
+
 }
 
 /* second card*/
@@ -402,6 +415,8 @@ nav {
     height: 441px;
     background: #F8F8F8;
     border-radius: 10px;
+    transition: 0.5s all ease;
+
 }
 
 .cardbox2:hover {
@@ -434,29 +449,41 @@ nav {
     height: 441px;
     background: #F8F8F8;
     border-radius: 10px;
+    transition: 0.5s all ease;
+
 }
 
 .cardbox3:hover {
     background-color: #FF7143;
     transform: scale(1.05);
+    transition: 0.5s all ease;
+
 }
 
 .cardbox3:hover p {
     color: white;
+    transition: 0.5s all ease;
+
 
 }
 
 .cardbox3:hover h1 {
     color: white;
+    transition: 0.5s all ease;
+
 }
 
 .cardbox3:hover button {
     background: #9F3919;
     border-radius: 10px;
+    transition: 0.5s all ease;
+
 }
 
 .cardbox3:hover button {
     color: white;
+    transition: 0.5s all ease;
+
 }
 
 
@@ -469,6 +496,8 @@ nav {
     text-align: center;
     letter-spacing: -0.562737px;
     color: #696871;
+    transition: 0.5s all ease;
+
 }
 
 .card_second {
@@ -479,6 +508,8 @@ nav {
     text-align: center;
     letter-spacing: -1.03448px;
     color: #1D293F;
+    transition: 0.5s all ease;
+
 }
 
 .box_circle {
@@ -486,6 +517,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     margin: 28px 0px 36px 0px;
+    transition: 0.5s all ease;
+
 }
 
 .wesite {
@@ -497,6 +530,8 @@ nav {
     letter-spacing: -0.562737px;
     color: #696871;
     margin-top: 20px;
+    transition: 0.5s all ease;
+
 }
 
 .btn_cards {
@@ -512,6 +547,8 @@ nav {
     text-align: center;
     letter-spacing: -0.531474px;
     color: #5454D4;
+    transition: 0.5s all ease;
+
 }
 
 .btn_cards {
@@ -520,6 +557,8 @@ nav {
     justify-content: center;
     margin: 0 auto;
     border: none;
+    transition: 0.5s all ease;
+
 }
 
 /* Cards end*/
