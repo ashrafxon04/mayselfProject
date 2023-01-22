@@ -183,6 +183,9 @@ nav {
     margin-top: 185px;
     gap: 165px;
 }
+.main_img img{
+    width: 290px;
+}
 
 .main_box {
     display: flex;
@@ -249,6 +252,9 @@ nav {
     justify-content: center;
     flex-direction: column;
 }
+.card1 img{
+    width: 190px;
+}
 
 .card_title {
     font-style: normal;
@@ -290,6 +296,7 @@ nav {
 }
 
 .plan_text {
+    width: 600px;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -299,7 +306,7 @@ nav {
 }
 
 .plan_btn {
-    width: 320px;
+    width: 315px;
     height: 65px;
     background:#F7F7FB;
     border-radius: 10px;
@@ -307,6 +314,7 @@ nav {
     align-items: center;
     justify-content: center;
     border: none;
+    cursor: pointer;
 }
 
 .planbtn1 {
@@ -321,6 +329,7 @@ nav {
     text-align: center;
     letter-spacing: -0.500211px;
     color: #ffffff;
+    cursor: pointer;
     border: none;
 }
 
@@ -375,6 +384,7 @@ nav {
     height: 441px;
     background: #F8F8F8;
     border-radius: 10px;
+    cursor: pointer;
     transition: 0.5s all ease-in-out;
 
 }
@@ -413,6 +423,7 @@ nav {
 
 /* second card*/
 .cardbox2 {
+    cursor: pointer;
     width: 330px;
     height: 441px;
     background: #F8F8F8;
@@ -447,6 +458,7 @@ nav {
 /*theerd card*/
 
 .cardbox3 {
+    cursor: pointer;
     width: 330px;
     height: 441px;
     background: #F8F8F8;
