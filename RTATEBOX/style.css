@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contenier{
+    margin: 0 auto;
+    width: 700px;
+    height:680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotatebox{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transform: rotate(45deg);
+}
+.item1{
+    background: linear-gradient( to left top, rgba(37, 87, 153, 0.92) 50% , rgba(97, 186, 228, 0.926) 50%) ;
+    position: relative;
+    z-index: 998;
+}
+.item2{
+    background: linear-gradient( to left top, rgba(9, 129, 19, 0.584) 50% , rgb(5, 81, 4) 50%) ;
+    position: relative;
+    bottom: 290px;
+    z-index: 333;
+}
+.item3{
+    background: linear-gradient( to left top, rgba(208, 126, 39, 0.827) 50% , rgba(255, 149, 0, 0.862) 50%) ;
+    position: relative;
+    bottom: 280px;
+}
+.item4{
+    background: linear-gradient( to left top, rgba(208, 39, 59, 0.91) 50% , rgba(206, 26, 116, 0.862) 50%) ;
+    position: relative;
+    top: 50px;
+    right: 360px;
+}
+.item5{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient( to left top, rgba(0, 51, 6, 0.91) 50% , rgba(37, 112, 33, 0.862) 50%) ;
+    position: relative;
+    bottom: 50px;
+    right: 230px;
+}
+.item6{
+    background: linear-gradient( to left top, rgba(182, 97, 60, 0.91) 50% , rgba(207, 9, 9, 0.873) 50%) ;
+    position: relative;
+    bottom: 280px;
+    right: 30px;
+}
+.item7{
+    position: relative;
+    bottom: 430px;
+    right: 140px;
+    background: linear-gradient( to left top, rgba(0, 51, 6, 0.91) 50% , rgba(37, 112, 33, 0.862) 50%) ;
+
+}
+.box1{
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+.box2{
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
