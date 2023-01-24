@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 5, 36);
+}
+
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+.orangeH h1 {
+    width: 60px;
+    height: 80px;
+    background-color: orangered;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+}
+
+li:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+.searchbox {
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: cent
+}
+
+i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 90px;
+    cursor: pointer;
+}
+
+.box {
+    width: 50px;
+    height: 5px;
+    border: 50px;
+    background-color: white;
+}
