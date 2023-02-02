@@ -13,6 +13,7 @@
     background-color: aliceblue;
     border-radius: 10px;
 }
+.none{}
 .child1{
     display: flex;
     justify-content: space-evenly;

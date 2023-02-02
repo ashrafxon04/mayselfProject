@@ -13,6 +13,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
 }
+.none{}
 .child1{
     width: 100px;
     height: 100px;
