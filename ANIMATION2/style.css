@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigwrapper{
+    margin: 0 auto;
+    width: 1500px;
+    height: 600px;
+}
+.containerBig{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1500px;
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.mountains1{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient( to left top,white 50% ,black 50%) ;
+    transform: rotate(45deg);
+    position: relative;
+    /* top: 300px; */
+    left:50px;
+    z-index: 588;
+}
+.mountains2{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient( to left top,white 50% ,black 50%) ;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 100px;
+    /* top: 275px; */
+    right: 100px;
+    z-index: 489;
+}
+.mountains3{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient( to left top,white 50% ,black 50%) ;
+    transform: rotate(45deg);
+    position: relative;
+    z-index: 333;
+    /* top: 300px; */
+    right: 100px;
+}
+.sunshine{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    bottom: 200px;
+    animation: sunshine 5s alternate;  
+    z-index: 77;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons{
+    font-size: 100px;
+    position: relative;
+    bottom: 500px;
+    color: grey;
+    z-index: 888;
+    animation: clouds 10s alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.icons2{
+    font-size: 100px;
+    position: relative;
+    bottom: 500px;
+    color: grey;
+    z-index: 888;
+    animation: clouds 22s alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.icons3{
+    font-size: 100px;
+    position: relative;
+    bottom: 700px;
+    color: rgb(83, 67, 67);
+    z-index: 888;
+    animation: clouds 15s alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes clouds{
+    from{
+        left: 0;
+    }
+    to{
+        left: 1300px;
+    }
+}
+
+
+@keyframes sunshine {
+    from{
+        bottom: 10;
+        background-color: white;
+        transition: all 1s;
+    }
+    to{
+        bottom:500px;
+    }
+  }

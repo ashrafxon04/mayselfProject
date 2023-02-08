@@ -17,7 +17,7 @@
     background-color: yellow;
     transform: rotate(45deg);
 }
-.mkkmo{}
+
 .item1{
     background: linear-gradient( to left top, rgba(37, 87, 153, 0.92) 50% , rgba(97, 186, 228, 0.926) 50%) ;
     position: relative;
