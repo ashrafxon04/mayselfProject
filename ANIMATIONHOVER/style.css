@@ -1,0 +1,100 @@
+.cercleBlue {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ocklockWrap{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.cercleWhite {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: cercle 320s alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.cercleWhite:hover{
+    animation-play-state: paused;
+}
+
+.center {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 85px;
+    z-index: 988;
+    /* flex-direction: column; */
+    
+}
+
+.strelcaHover {
+    width: 10px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@keyframes cercle{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(60000deg);
+    }
+}
+.miniBlue{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    bottom: 300px;
+}
+.cw{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.de{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 220px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rr{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
